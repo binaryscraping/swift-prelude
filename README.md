@@ -1,4 +1,4 @@
-# Prelude
+# swift-prelude
 
 A collection of common, Swift, SwiftUI and UIKit helpers to make developing apps easier.
 
