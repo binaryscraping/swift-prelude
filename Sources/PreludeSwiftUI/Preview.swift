@@ -1,6 +1,6 @@
 import SwiftUI
 
-@available(macOS 10.15, iOS 13.0, *)
+@available(iOS 13.0, *)
 public struct Preview<Content: View>: View {
   let content: Content
 

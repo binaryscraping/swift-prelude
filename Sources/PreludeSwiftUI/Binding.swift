@@ -1,6 +1,5 @@
 import SwiftUI
 
-@available(macOS 10.15, iOS 13.0, *)
 extension Binding {
   // NB: Custom bindings can over-emit in certain situations, like sheet dismissal.
   //     This helper can be used to avoid those over-emissions.
@@ -13,7 +12,6 @@ extension Binding {
   }
 }
 
-@available(macOS 10.15, iOS 13.0, *)
 extension Binding where Value: Equatable {
   public func removeDuplicates() -> Self {
     self.removeDuplicates(by: ==)
